@@ -681,7 +681,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .post-card-excerpt {
     max-width: 56em;
     color: var(--midgrey);
-    font-family: Georgia, serif;
+    font-size: 1.3em;
 }
 
 .post-card-excerpt p {
@@ -1005,7 +1005,7 @@ make sure this only happens on large viewports / desktop-ish devices.
 .post-full-content {
     position: relative;
     margin: 0 auto;
-    padding: 0 2vw 11vw;
+    padding: 0 160px 11vw;
     min-height: 230px;
     font-family: "Noto Serif KR", serif;
     font-size: 1.5rem;

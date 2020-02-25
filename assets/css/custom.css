@@ -10,6 +10,9 @@ body {
 .site-nav-main {
    background-color: #eac62b;
 }
+.site-header-background {
+    background-color: #eac62b;
+}
 .site-header-background:not(.responsive-header-img) .site-nav-left-wrapper:after, .site-nav-main .site-nav-left-wrapper:after {
     background: none;
 }
@@ -25,12 +28,14 @@ body {
     top: 13px;
 }
 
-.post-card-primary-tag {
-    color: #eac62b;
+.post-feed .post-card {
+    flex: 1 1 501px;
 }
+
 .post-full-tags a {
     text-decoration: none;
     background-color: #eac62b;
     color: #fff;
-    padding: 1px 2px;
+    padding: 1px 5px;
+    margin-right: 5px;
 }
