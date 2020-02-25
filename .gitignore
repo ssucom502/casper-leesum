@@ -2,3 +2,4 @@
 *.iml
 assets/built/**
 node_modules/**
+dist/**

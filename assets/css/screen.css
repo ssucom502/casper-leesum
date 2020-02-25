@@ -1005,17 +1005,17 @@ make sure this only happens on large viewports / desktop-ish devices.
 .post-full-content {
     position: relative;
     margin: 0 auto;
-    padding: 0 170px 6vw;
+    padding: 0 2vw 11vw;
     min-height: 230px;
-    font-family: Georgia, serif;
-    font-size: 2.0rem;
+    font-family: "Noto Serif KR", serif;
+    font-size: 1.5rem;
     line-height: 1.6em;
     background: #fff;
 }
 
 @media (max-width: 1170px) {
     .post-full-content {
-        padding: 0 11vw;
+        padding: 0 6vw;
     }
 }
 @media (max-width: 800px) {
@@ -1306,7 +1306,7 @@ Usage (In Ghost editor):
 
 .post-full-content h4 {
     margin: 0.5em 0 0.2em;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: 600;
 }
 .post-full-content h2 + h4 {

@@ -1,3 +1,36 @@
 body {
     font-family: "Noto Serif KR", sans-serif;
+    font-size: 10px;
+}
+.post-full-content pre {
+    border: none;
+    border-radius: 0;
+    background-color : #f5f2f0;
+}
+.site-nav-main {
+   background-color: #eac62b;
+}
+.site-header-background:not(.responsive-header-img) .site-nav-left-wrapper:after, .site-nav-main .site-nav-left-wrapper:after {
+    background: none;
+}
+.site-header-background:before, .site-header-background:after {
+    background: none;
+}
+
+.site-logo {
+    width: 100%;
+}
+
+.nav-post-title {
+    top: 13px;
+}
+
+.post-card-primary-tag {
+    color: #eac62b;
+}
+.post-full-tags a {
+    text-decoration: none;
+    background-color: #eac62b;
+    color: #fff;
+    padding: 1px 2px;
 }
